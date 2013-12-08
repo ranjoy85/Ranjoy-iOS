@@ -17,7 +17,7 @@
 		717F970B185442DD00B338D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 717F970A185442DD00B338D0 /* Default@2x.png */; };
 		717F970D185442DD00B338D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 717F970C185442DD00B338D0 /* Default-568h@2x.png */; };
 		717F9710185442DD00B338D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F970F185442DD00B338D0 /* ViewController.m */; };
-		717F9713185442DD00B338D0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717F9711185442DD00B338D0 /* ViewController.xib */; };
+		71E98563185499C400A641D7 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E98562185499C400A641D7 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,8 @@
 		717F970C185442DD00B338D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		717F970E185442DD00B338D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		717F970F185442DD00B338D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		717F9712185442DD00B338D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		71E98561185499C400A641D7 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		71E98562185499C400A641D7 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +88,9 @@
 				717F9706185442DD00B338D0 /* AppDelegate.m */,
 				717F970E185442DD00B338D0 /* ViewController.h */,
 				717F970F185442DD00B338D0 /* ViewController.m */,
-				717F9711185442DD00B338D0 /* ViewController.xib */,
 				717F96FD185442DD00B338D0 /* Supporting Files */,
+				71E98561185499C400A641D7 /* TableViewCell.h */,
+				71E98562185499C400A641D7 /* TableViewCell.m */,
 			);
 			path = UItableview;
 			sourceTree = "<group>";
@@ -162,7 +164,6 @@
 				717F9709185442DD00B338D0 /* Default.png in Resources */,
 				717F970B185442DD00B338D0 /* Default@2x.png in Resources */,
 				717F970D185442DD00B338D0 /* Default-568h@2x.png in Resources */,
-				717F9713185442DD00B338D0 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +177,7 @@
 				717F9703185442DD00B338D0 /* main.m in Sources */,
 				717F9707185442DD00B338D0 /* AppDelegate.m in Sources */,
 				717F9710185442DD00B338D0 /* ViewController.m in Sources */,
+				71E98563185499C400A641D7 /* TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +190,6 @@
 				717F9700185442DD00B338D0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		717F9711185442DD00B338D0 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				717F9712185442DD00B338D0 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +292,7 @@
 				717F9718185442DD00B338D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
